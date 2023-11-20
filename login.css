@@ -1,0 +1,71 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Vina Sans', sans-serif;
+    background-color: rgba(139, 134, 0, 0.389);
+}
+
+.pinky, a{
+    display: block;
+    
+}
+#container{  /*how to the center a division the given as follows : */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-image: url(./nature-3082832_640.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    width: 24%;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+form h2{
+    text-align: center;
+    color: chartreuse;
+    text-transform: capitalize;
+    font-size: 277%;
+}
+form label{
+    color: chartreuse;
+    font-size: 20px;
+}
+form .paos{
+    width: 101%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    
+}
+form #btm{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color:rgb(0, 12, 11);
+    background-color: rgb(30, 0, 255);
+}
+#Cancel{
+    background-color: red;
+}
+form a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.fa-solid{
+     position: absolute;
+     top: 60%;
+     left: 5%;
+}
+#bh{
+    position: relative;
+}
